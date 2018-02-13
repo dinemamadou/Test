@@ -48,7 +48,7 @@ summary(my_fit)
 confint(my_fit)
 ```
 
-The data were something. (
+The "donnée" were something. (
 Slope: `r coefficients(my_fit)[2]`, CI: LB:
 `r round(confint(my_fit) [1, 2], 3)`)
 
